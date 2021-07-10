@@ -19,7 +19,7 @@ const FaqSection = () => {
         Any Questions <span>FAQ</span>
       </h2>
       <AnimateSharedLayout>
-        <Toggle title="How Do I Start?">
+        <Toggle title="Cardless Check-In?">
           <div className="answer">
             <p>Lorem ipsum dolor sit amet.</p>
             <p>
@@ -29,7 +29,7 @@ const FaqSection = () => {
             </p>
           </div>
         </Toggle>
-        <Toggle title="Daily Schedule">
+        <Toggle title="Our Programs">
           <div className="answer">
             <p>Lorem ipsum dolor sit amet.</p>
             <p>
@@ -38,7 +38,7 @@ const FaqSection = () => {
             </p>
           </div>
         </Toggle>
-        <Toggle title="Diferrent Payment Methods">
+        <Toggle title="Membership-Upgrading">
           <div className="answer">
             <p>Lorem ipsum dolor sit amet.</p>
             <p>
@@ -47,7 +47,7 @@ const FaqSection = () => {
             </p>
           </div>
         </Toggle>
-        <Toggle title="What Products do you offer.">
+        <Toggle title="Personal Training">
           <div className="answer">
             <p>Lorem ipsum dolor sit amet.</p>
             <p>

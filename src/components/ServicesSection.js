@@ -4,7 +4,7 @@ import clock from "../img/clock.svg";
 import diaphragm from "../img/diaphragm.svg";
 import money from "../img/money.svg";
 import teamwork from "../img/teamwork.svg";
-import home2 from "../img/home2.png";
+import home2 from "../img/home3.jpg";
 //Styles
 import { About, Description, Image } from "../styles";
 import styled from "styled-components";
@@ -22,27 +22,27 @@ const ServicesSection = () => {
     >
       <Description>
         <h2>
-          High <span>quality</span> services
+          High <span>quality</span> Classes
         </h2>
         <Cards>
           <Card>
             <div className="icon">
-              <img alt="icon" src={clock} />
-              <h3>Efficient</h3>
+              <img alt="icon" src={teamwork} />
+              <h3>Cross-fit</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
           </Card>
           <Card>
             <div className="icon">
               <img alt="icon" src={teamwork} />
-              <h3>Teamwork</h3>
+              <h3>Yoga</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
           </Card>
           <Card>
             <div className="icon">
-              <img alt="icon" src={diaphragm} />
-              <h3>Diaphragm</h3>
+              <img alt="icon" src={teamwork} />
+              <h3>Cycle Zone</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
           </Card>

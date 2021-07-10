@@ -10,7 +10,7 @@ const Nav = () => {
     <StyledNav>
       <h1>
         <Link id="logo" to="/">
-          Capture
+          BlackRock Fitness-Austin
         </Link>
       </h1>
       <ul>
@@ -23,7 +23,7 @@ const Nav = () => {
           />
         </li>
         <li>
-          <Link to="/work">2. Our Work</Link>
+          <Link to="/work">2. Our Trainers</Link>
           <Line
             transition={{ duration: 0.75 }}
             initial={{ width: "0%" }}
